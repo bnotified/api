@@ -1,13 +1,15 @@
+"""This module contains the RegistrationForm Class."""
 from wtforms import Form, StringField, PasswordField, validators
 
 
 class RegistrationForm(Form):
-    """Form for handling registration form validation
-    """
+
+    """Form for handling registration form validation."""
+
     username = StringField(
         'username',
         [validators.required(),
-         validators.Length(min=4, max=25)]
+         validators.Length(min=1, max=25)]
     )
     password = PasswordField(
         'password',

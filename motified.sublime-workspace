@@ -1,0 +1,1467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"require",
+				"required"
+			],
+			[
+				"is",
+				"is_local_file"
+			],
+			[
+				"requi",
+				"require_string"
+			],
+			[
+				"parse_expor",
+				"parse_exports_in_file"
+			],
+			[
+				"base",
+				"base_path"
+			],
+			[
+				"mod",
+				"module"
+			],
+			[
+				"node",
+				"node_modules"
+			],
+			[
+				"module",
+				"module_package"
+			],
+			[
+				"requre",
+				"require_string"
+			],
+			[
+				"sublime",
+				"sublime_plugin"
+			],
+			[
+				"selected",
+				"selected_exports"
+			],
+			[
+				"show",
+				"show_exports"
+			],
+			[
+				"call",
+				"on_done_call_func"
+			],
+			[
+				"on_done",
+				"on_done_call_func"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"import",
+				"import_fmt"
+			],
+			[
+				"impor",
+				"import_fmt"
+			],
+			[
+				"should_add_var",
+				"should_add_var_statement"
+			],
+			[
+				"core",
+				"core_modules"
+			],
+			[
+				"modu",
+				"module_info"
+			],
+			[
+				"preproces",
+				"preprocessors"
+			],
+			[
+				"create",
+				"createAPI"
+			],
+			[
+				"pre",
+				"preprocessors"
+			],
+			[
+				"asser",
+				"assertCalledOnceWith"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"post",
+				"postprocessors"
+			],
+			[
+				"getResp",
+				"getResponseCB"
+			],
+			[
+				"Projec",
+				"ProjectPage"
+			],
+			[
+				"association",
+				"association_proxy"
+			],
+			[
+				"associa",
+				"association_proxy"
+			],
+			[
+				"assoc",
+				"association_proxy"
+			],
+			[
+				"loadPar",
+				"loadParticipantsNames"
+			],
+			[
+				"asse",
+				"assert.ok"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"new",
+				"ANF: New File"
+			],
+			[
+				"Python",
+				"Set Syntax: Python3"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"COdeo",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"LIst pak",
+				"Package Control: List Packages"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"Enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable lin",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"Require",
+				"Require Specific Export"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"git stats",
+				"Git: Status"
+			],
+			[
+				"LInt",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Enable Linter",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"Format",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"",
+				"ANF: Copy Current File"
+			],
+			[
+				"copy",
+				"ANF: Copy Current File"
+			],
+			[
+				"rename",
+				"ANF: Rename File"
+			],
+			[
+				"nw",
+				"ANF: New File"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"Lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"Debug",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"SublimeLinter: ",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"SublimeLinter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"Remove Package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"linter tol",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"disablelin",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"lint ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"List pa",
+				"Package Control: List Packages"
+			],
+			[
+				"Remove Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Remove Packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Lint this ",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Lint this view",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"Toggle Linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"list packa",
+				"Package Control: List Packages"
+			],
+			[
+				"Linter e",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"disabl",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"disable li",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"set syntax: Pyhton",
+				"Set Syntax: Python"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"set syntax text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"psuh",
+				"Git: Push"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"ListPacka",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add Remote"
+			],
+			[
+				"git om",
+				"Git: Commit"
+			],
+			[
+				"quickcom",
+				"Git: Quick Commit"
+			],
+			[
+				"quick",
+				"Git: Quick Add"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"lists",
+				"Package Control: List Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"package control remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 255.0,
+		"history":
+		[
+			"print('\\n' * 100)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/giancarloanemone/Documents/dev/web/motified_api",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/forms"
+	],
+	"file_history":
+	[
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/models/event.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/routes/routes.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/api.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/forms/event.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/tests/mod_auth/test_auth.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/forms/db_match.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/models/db.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/forms/__init__.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/forms/registration.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/models/user.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/tests/fixtures/many_users.json",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/app_factory/create_app.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/server/models/event_category.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/db_test.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/forms/db_match.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/mod_auth/auth.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/category.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/event.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/user.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/__init__.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/event_user.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/event_keyword.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/event_favorite.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/models/event_category.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/run_tests.py",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/motified.sublime-project",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/giancarloanemone/Documents/dev/web/motified_api/app/config.py",
+		"/Users/giancarloanemone/Documents/dev/test_project/package.json",
+		"/Users/giancarloanemone/Documents/dev/test_project/index.js",
+		"/Users/giancarloanemone/Documents/dev/test_project/test_project.sublime-project",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/src/utils.py",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/lint/util.py",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/NodeRequirer.py",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/package-metadata.json",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/src/RequireSnippet.py",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/README.md",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/src/modules.py",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/CodeFormatter/messages.json",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/Default (OSX).sublime-keymap",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/Default (Windows).sublime-keymap",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/Default (Linux).sublime-keymap",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/NodeRequirer.sublime-commands",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/NodeRequirer.sublime-settings",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/NodeRequirer/Require.sublime-settings",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/User/directQuery.sublime-snippet",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/bz2/dependency-metadata.json",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/User/requirer.py",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/rest-builder.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/db.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/lib/collection.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/CONTRIBUTING.md",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/CNAME",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/README.md",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/brestful.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/db/test-update.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/libusdt/usdt_probe.c",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/models/user.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/db/test-add.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/test-brestful.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mocha/lib/test.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/test/index.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/build/Release/.deps/Release/obj.target/DTraceProviderBindings/dtrace_argument.o.d",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/chai/lib/chai/utils/addMethod.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/bunyan/AUTHORS",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/bookshelf.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/index.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/lib/makeMock.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/lib/makeMockFunction.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/node_modules/semver/Makefile",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/test/more-args.test.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/.bin/mocha",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/.gitignore",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/tests/test-assertions.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mocha/node_modules/jade/lib/nodes/block-comment.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mock-object/node_modules/chai/bower.json",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/liftoff/node_modules/resolve/test/mock.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/util/sendJSON.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mocha/lib/utils.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/libusdt/usdt_tracepoints_i386.s",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/bunyan/node_modules/mv/node_modules/mkdirp/test/return.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/node_modules/create-error/create-error.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/lib/plugins/conditional_request.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/fixture.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/build/Release/.deps/Release/DTraceProviderBindings.node.d",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/bunyan/docs/bunyan.1",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/tests/test-assertions.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/response-builder.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/minimist/test/default_bool.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/minimist/test/dash.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/clearTable.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/clearDB.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/verror/experiments/test-error-properties.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/rest-builder/test-define-post.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/rest-builder/test-define-delete.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/shared.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/test-rest-builder.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/lib/server.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/package.json",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/rewire/lib/getDefinePropertySrc.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/build/Release/DTraceProviderBindings.node",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/build/DTraceProviderBindings.target.mk",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/express/node_modules/debug/debug.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/mock.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/chai/History.md",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/lib/client.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/mkdirp/node_modules/minimist/test/default_bool.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/mocha/node_modules/mkdirp/node_modules/minimist/test/default_bool.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/libusdt-build.sh",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/LICENSE",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/bunyan/node_modules/mv/node_modules/ncp/test/regular-fixtures/src/d",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/express/node_modules/send/Readme.md",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/node_modules/simple-extend/simple-extend.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/tests/util/noarg.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/test/new-glob-optional-options.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/bookshelf-restful.sublime-project",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/lib/interface.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/dtrace-provider/build/Release/linker.lock",
+		"/Users/giancarloanemone/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/index.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/.jshintrc",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/knex/node_modules/mkdirp/test/umask_sync.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/underscore/underscore.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/express/node_modules/qs/test/stringify.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/restify/node_modules/bunyan/node_modules/mv/node_modules/rimraf/test/test-sync.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/node_modules/bookshelf/lib/model.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/brestful.js",
+		"/Users/giancarloanemone/Documents/dev/bookshelf-restful/lib/init.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"motified_api/",
+			"bookshelf-restful/tests/",
+			"bookshelf-restful/lib/",
+			"bookshelf-restful/tests/",
+			"bookshelf-restful/lib/",
+			"bookshelf-restful/",
+			"bookshelf-restful/tests/",
+			"bookshelf-restful/lib/",
+			"lib/",
+			"ontheside/client",
+			"ramp/",
+			"ramp/application/",
+			"ramp/",
+			"ramp/library/",
+			"ramp/application",
+			"api/server/",
+			"api/",
+			"",
+			"api/server/"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"type",
+			"username",
+			"name",
+			"category",
+			"categorys",
+			"Language",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"app",
+			"server.",
+			"Language",
+			"language import",
+			"Language",
+			"import e",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"categories",
+			"Language",
+			"languages",
+			"language",
+			"Language",
+			"language",
+			"/event",
+			"project",
+			"Project",
+			"project",
+			"project_",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"Project",
+			"project",
+			"ontheside",
+			"project_folder",
+			"if destruc",
+			"self.name",
+			"quotes",
+			"self.path =",
+			"ExportInsertHelperCommand",
+			"insert",
+			"Export",
+			"print",
+			"package",
+			"parse_exports",
+			"exports",
+			"base_path",
+			"module_package",
+			"json.",
+			";",
+			"package.json",
+			"parse_local_module_exports",
+			"path",
+			"file",
+			"self.module",
+			"parse_exports",
+			"parse_exporst",
+			"parse_exports",
+			"exports",
+			"on_export_done",
+			"parse_exports",
+			"self.module",
+			"def get_module_info",
+			"get_module_info",
+			"self.get_module_info",
+			"get_quotes",
+			"quotes",
+			"insert_snippet",
+			"position",
+			"insert",
+			"position",
+			"insert_snippet",
+			"selected_exports",
+			"exports",
+			"parse_exports",
+			"on_done_call_func",
+			"print",
+			"func",
+			"module_info",
+			"insert",
+			"on_done_call_func",
+			"project_folder",
+			"find_project_folder",
+			"load_file_list",
+			"core_modules",
+			"self.files = core_modules",
+			"func",
+			"parse_exports",
+			"parse_exporst",
+			"exports",
+			"parse_package_",
+			";",
+			"parse_exports",
+			"parse",
+			"WORD_SPLIT",
+			".match",
+			"HAS_REL",
+			"match",
+			"IS_EXPORT_LINE",
+			"HAS_REL",
+			"parse_exports",
+			"simple",
+			"export",
+			"get_pref",
+			"self.insert",
+			"get_pref",
+			"PluginUtils.",
+			"dirmodule_name",
+			"dirname",
+			"module",
+			"get_module_inf",
+			"module",
+			"module_path",
+			"last_word",
+			"should_add_var",
+			"REquireSnippet",
+			"RequireSnippet",
+			"module",
+			"name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-pull":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.test_runner":
+	{
+		"height": 100.0
+	},
+	"project": "motified.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"routes",
+				"server/routes/routes.py"
+			],
+			[
+				"event.py",
+				"server/models/event.py"
+			],
+			[
+				"event",
+				"server/forms/event.py"
+			],
+			[
+				"registration",
+				"server/forms/registration.py"
+			],
+			[
+				"api",
+				"server/api.py"
+			],
+			[
+				"user",
+				"server/models/user.py"
+			],
+			[
+				"in",
+				"index.js"
+			],
+			[
+				"uti",
+				"NodeRequirer/src/utils.py"
+			],
+			[
+				"nodere",
+				"NodeRequirer/NodeRequirer.py"
+			],
+			[
+				"u",
+				"NodeRequirer/src/utils.py"
+			],
+			[
+				"util",
+				"SublimeLinter/lint/util.py"
+			],
+			[
+				"require",
+				"NodeRequirer/src/RequireSnippet.py"
+			],
+			[
+				"node",
+				"NodeRequirer/NodeRequirer.py"
+			],
+			[
+				"requiresni",
+				"NodeRequirer/src/RequireSnippet.py"
+			],
+			[
+				"read",
+				"CodeFormatter/README.md"
+			],
+			[
+				"db.js",
+				"lib/db.js"
+			],
+			[
+				"rest-bui",
+				"lib/rest-builder.js"
+			],
+			[
+				"makemockfunc",
+				"node_modules/mock-object/lib/makeMockFunction.js"
+			],
+			[
+				"makemock",
+				"node_modules/mock-object/lib/makeMock.js"
+			],
+			[
+				"mock-obje",
+				"node_modules/mock-object/index.js"
+			],
+			[
+				"test-brestfu",
+				"tests/test-brestful.js"
+			],
+			[
+				"brest",
+				"lib/brestful.js"
+			],
+			[
+				"db",
+				"lib/db.js"
+			],
+			[
+				"brestf",
+				"lib/brestful.js"
+			],
+			[
+				"test-add",
+				"tests/db/test-add.js"
+			],
+			[
+				"test-brestf",
+				"tests/test-brestful.js"
+			],
+			[
+				"brestfu",
+				"lib/brestful.js"
+			],
+			[
+				"fixtur",
+				"tests/util/fixture.js"
+			],
+			[
+				"db.",
+				"lib/db.js"
+			],
+			[
+				"test/db/test",
+				"tests/db/test-add.js"
+			],
+			[
+				"clearta",
+				"tests/clearTable.js"
+			],
+			[
+				"fixture",
+				"tests/util/fixture.js"
+			],
+			[
+				"rest-builder",
+				"lib/rest-builder.js"
+			],
+			[
+				"shared",
+				"tests/util/shared.js"
+			],
+			[
+				"server.js",
+				"node_modules/restify/lib/server.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"test-rest-bui",
+				"tests/test-rest-builder.js"
+			],
+			[
+				"mock",
+				"tests/util/mock.js"
+			],
+			[
+				"rest",
+				"lib/rest-builder.js"
+			],
+			[
+				"test-rest",
+				"tests/test-rest-builder.js"
+			],
+			[
+				"test-bre",
+				"tests/test-brestful.js"
+			],
+			[
+				"rest-b",
+				"lib/rest-builder.js"
+			],
+			[
+				"test-b",
+				"tests/test-brestful.js"
+			],
+			[
+				"sendj",
+				"lib/util/sendJSON.js"
+			],
+			[
+				"db.j",
+				"lib/db.js"
+			],
+			[
+				"test-",
+				"tests/test-brestful.js"
+			],
+			[
+				"noarg",
+				"tests/util/noarg.js"
+			],
+			[
+				"ind",
+				"index.js"
+			],
+			[
+				"tests/test-",
+				"tests/test-brestful.js"
+			],
+			[
+				"booshelfmodel",
+				"node_modules/bookshelf/lib/model.js"
+			],
+			[
+				"bookshelfmode",
+				"node_modules/bookshelf/lib/model.js"
+			],
+			[
+				"bookshelf",
+				"node_modules/bookshelf/bookshelf.js"
+			],
+			[
+				"index.",
+				"index.js"
+			],
+			[
+				"config.py",
+				"server/config.py"
+			],
+			[
+				"project.jsx",
+				"client/components/Project.jsx"
+			],
+			[
+				"project.py",
+				"server/models/project.py"
+			],
+			[
+				"api.py",
+				"server/api.py"
+			],
+			[
+				"project",
+				"client/components/Project.jsx"
+			],
+			[
+				"api.js",
+				"client/models/api.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"many_pr",
+				"server/tests/fixtures/many_projects.json"
+			],
+			[
+				"config",
+				"server/config.py"
+			],
+			[
+				"index.jsx",
+				"client/index.jsx"
+			],
+			[
+				"app.jsx",
+				"client/components/App.jsx"
+			],
+			[
+				"projectlist",
+				"client/components/ProjectList.jsx"
+			],
+			[
+				"projectpage",
+				"client/components/ProjectPage.jsx"
+			],
+			[
+				"proje",
+				"client/components/Project.jsx"
+			],
+			[
+				"home",
+				"client/components/Home.jsx"
+			],
+			[
+				"index.htm",
+				"index.html"
+			],
+			[
+				"app.py",
+				"app.py"
+			],
+			[
+				"index.js",
+				"client/index.jsx"
+			],
+			[
+				"app",
+				"app.py"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"many_project",
+				"server/tests/fixtures/many_projects.json"
+			],
+			[
+				"fixtures/single_proje",
+				"server/tests/fixtures/single_project.json"
+			],
+			[
+				"project_lang",
+				"server/models/project_language.py"
+			],
+			[
+				"project_key",
+				"server/models/project_keyword.py"
+			],
+			[
+				"models/__",
+				"server/models/__init__.py"
+			],
+			[
+				"project_langu",
+				"server/models/project_language.py"
+			],
+			[
+				"test_proejct",
+				"server/tests/api/test_project_api.py"
+			],
+			[
+				"project_user",
+				"server/models/project_user.py"
+			],
+			[
+				"project_language",
+				"server/models/project_language.py"
+			],
+			[
+				"language",
+				"server/models/language.py"
+			],
+			[
+				"projet.py",
+				"server/models/project.py"
+			],
+			[
+				"projects",
+				"server/tests/fixtures/many_projects.json"
+			],
+			[
+				"jquery",
+				"node_modules/browserify/node_modules/insert-module-globals/node_modules/lexical-scope/bench/jquery.js"
+			],
+			[
+				"activity",
+				"application/controllers/ActivityController.php"
+			],
+			[
+				"acl.php",
+				"library/Ramp/Acl.php"
+			],
+			[
+				"auth",
+				"application/controllers/AuthController.php"
+			],
+			[
+				"registryf",
+				"library/Ramp/RegistryFacade.php"
+			],
+			[
+				".htas",
+				"public/.htaccess"
+			],
+			[
+				"bootstra",
+				"application/Bootstrap.php"
+			],
+			[
+				"test",
+				"node_modules/mocha/lib/test.js"
+			],
+			[
+				"app.js",
+				"server/app.js"
+			],
+			[
+				"sendpu",
+				"server/util/sendPush.js"
+			],
+			[
+				"routes/in",
+				"server/routes/index.js"
+			],
+			[
+				"config/in",
+				"config/index.js"
+			],
+			[
+				"sendp",
+				"server/util/sendPush.js"
+			],
+			[
+				"controllers/chat",
+				"server/controllers/chat.js"
+			],
+			[
+				"chat",
+				"server/models/chat.js"
+			],
+			[
+				"collection/chat",
+				"server/collections/chat.js"
+			],
+			[
+				"integration/chat",
+				"test/integration/chat.js"
+			],
+			[
+				"models/",
+				"server/models/chat.js"
+			],
+			[
+				"collections/chat",
+				"server/collections/chat.js"
+			],
+			[
+				"readm",
+				"README.md"
+			],
+			[
+				"test/blacklist",
+				"test/server/controllers/blacklist.js"
+			],
+			[
+				"server/controllers/black",
+				"server/controllers/blacklist.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"routes/inde",
+				"server/routes/index.js"
+			],
+			[
+				"test/controllers/bla",
+				"test/server/controllers/blacklist.js"
+			],
+			[
+				"controllers/bla",
+				"server/controllers/blacklist.js"
+			],
+			[
+				"setup",
+				"test/util/setup-rosterusers.js"
+			],
+			[
+				"setuproster",
+				"test/util/setup-rosterusers.js"
+			],
+			[
+				"test/integration/chat",
+				"test/integration/chat.js"
+			],
+			[
+				"controllers/",
+				"server/controllers/blacklist.js"
+			],
+			[
+				"models/bla",
+				"server/models/blacklist.js"
+			],
+			[
+				"controllers/black",
+				"server/controllers/blacklist.js"
+			],
+			[
+				"models/black",
+				"server/models/blacklist.js"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"controllers/blak",
+				"server/controllers/blacklist.js"
+			],
+			[
+				"black",
+				"server/models/blacklist.js"
+			],
+			[
+				"validate",
+				"server/middlewares/validate-blacklist.js"
+			],
+			[
+				"blackjl",
+				"server/models/blacklist.js"
+			],
+			[
+				"routes/index",
+				"server/routes/index.js"
+			],
+			[
+				"config/ind",
+				"config/index.js"
+			],
+			[
+				"test/db.js",
+				"test/server/util/db.js"
+			],
+			[
+				"thoughts",
+				"server/collections/thoughts.js"
+			],
+			[
+				"server/models/",
+				"server/models/user.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Cate",
+				"Category"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_last_buffer_search": "relation",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_f",
+		"_vintageous_last_character_search": "r",
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

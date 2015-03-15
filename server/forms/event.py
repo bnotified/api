@@ -1,10 +1,12 @@
+"""This module contains the EventForm class."""
 from wtforms import Form, StringField, validators
 from wtforms.ext.dateutil.fields import DateTimeField
 
 
 class EventForm(Form):
-    """Form for handling registration form validation
-    """
+
+    """Form for handling registration form validation."""
+
     title = StringField(
         'title',
         [validators.required(),

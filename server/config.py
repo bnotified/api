@@ -29,6 +29,8 @@ CSRF_SESSION_KEY = "secret"
 # Secret key for signing cookies
 SECRET_KEY = "secret"
 
+SESSION_COOKIE_NAME = "motified_cookie"
+
 FIXTURES_DIRS = [
     '/home/ganemone/Documents/dev/motified_api/server/tests/fixtures/',
     '/Users/giancarloanemone/Documents/dev/web/motified_api/server/tests/fixtures/'

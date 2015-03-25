@@ -4,6 +4,7 @@ from flask_login import current_user
 
 from server.forms import RegistrationForm
 from server.models import User, Keyword, Category, Event
+from server.models.event import event_serializer
 from server.logger import logger, logging
 
 
@@ -119,6 +120,7 @@ api_config = [
     {
         'model': Event,
         'methods': ['GET', 'POST', 'DELETE', 'PATCH'],
+        'serializer': event_serializer,
         'preprocessors': {
             'PATCH_SINGLE': [
                 owner_or_admin_required,

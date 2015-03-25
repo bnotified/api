@@ -6,7 +6,7 @@ from server.login_manager import login_manager
 from server.models import db
 
 
-def create_app() -> Flask:
+def create_app():
     """Creates and returns the Flask WSGI application
     and initializes helping components"""
     # Initialize json support for wtforms
@@ -30,4 +30,4 @@ def create_app() -> Flask:
     # Setup the routes
     define_routes(app)
 
-    return app
+    return (app, db)

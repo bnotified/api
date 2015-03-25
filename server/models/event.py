@@ -17,9 +17,11 @@ class Event(db.Model):
     end = db.Column(db.DateTime)
     is_approved = db.Column(db.Boolean)
     created_by = db.Column(db.String(50))
+    address = db.Column(db.Text)
+    address_name = db.Column(db.Text)
 
     # users = association_proxy('event_user', 'user')
-    favorite_users = association_proxy('event_favorite', 'user')
+    subscribed_users = association_proxy('event_subscriptions', 'user')
     categories = db.relationship('Category', secondary='event_categories')
     keywords = db.relationship('Keyword', secondary='event_keywords')
 

@@ -15,7 +15,7 @@ class User(db.Model, UserMixin):
     password = db.Column('password', db.String(50))
     is_admin = db.Column('is_admin', db.Boolean)
 
-    favorites = association_proxy('event_favorite', 'event')
+    subscriptions = association_proxy('event_subscription', 'event')
 
     def __init__(self, username, password, is_admin):
         """Constructor for user."""

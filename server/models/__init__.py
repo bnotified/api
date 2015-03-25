@@ -6,6 +6,4 @@ from server.models.user import User
 from server.models.event_user import EventUser
 from server.models.event_category import EventCategory
 from server.models.event_keyword import EventKeyword
-from server.models.event_favorite import EventFavorite
-
-
+from server.models.event_subscription import EventSubscription

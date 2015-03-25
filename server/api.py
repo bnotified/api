@@ -13,8 +13,8 @@ def log_post(data):
 
 
 def created_by(data):
-    """Add current user id to POST data."""
-    data['created_by'] = [current_user.id]
+    """Add current user username to POST data."""
+    data['created_by'] = [current_user.username]
 
 
 def make_non_admin(data):
@@ -144,6 +144,8 @@ api_config = [
                             'created_by',
                             'keywords',
                             'categories',
-                            'favorite_users']
+                            'subscribed_users',
+                            'address',
+                            'address_name']
     }
 ]

@@ -4,13 +4,47 @@ from flask_login import current_user
 
 from server.forms import RegistrationForm
 from server.models import User, Keyword, Category, Event
-from server.models.event import event_serializer
-from server.logger import logger, logging
+from server.logger import log
+
+
+def _add_is_current_user_subscribed(event):
+    """Add is_subscribed field to a single event dictionary."""
+    if current_user is None:
+        return
+    eid = event["id"]
+    event["is_subscribed"] = current_user.is_subscribed_to_event(eid)
+
+
+def add_is_current_user_subscribed(result=None, **kwargs):
+    """Add is_subscribed field to GET event response."""
+    if result is None:
+        return
+    if "objects" in result:
+        for event in result["objects"]:
+            _add_is_current_user_subscribed(event)
+    else:
+        _add_is_current_user_subscribed(result)
+
+
+def _change_subscribed_list_to_count(event):
+    """Change the subscribed_users to a count for a singel event dict."""
+    event["subscribed_users"] = len(event["subscribed_users"])
+
+
+def change_subscribed_list_to_count(result=None, **kwargs):
+    """Change the subscribed_list to a count."""
+    if result is None:
+        return
+    if "objects" in result:
+        for event in result["objects"]:
+            _change_subscribed_list_to_count(event)
+    else:
+        _change_subscribed_list_to_count(result)
 
 
 def log_post(data):
     """Log data of a POST."""
-    logger.log(logging.INFO, data)
+    log(data)
 
 
 def created_by(data):
@@ -120,7 +154,6 @@ api_config = [
     {
         'model': Event,
         'methods': ['GET', 'POST', 'DELETE', 'PATCH'],
-        'serializer': event_serializer,
         'preprocessors': {
             'PATCH_SINGLE': [
                 owner_or_admin_required,
@@ -135,7 +168,6 @@ api_config = [
                 login_required_preprocessor,
                 event_owned_by_current_user
             ]
-
         },
         'include_columns': ['id',
                             'name',

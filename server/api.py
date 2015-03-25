@@ -169,10 +169,19 @@ api_config = [
                 event_owned_by_current_user
             ]
         },
+        'postprocessors': {
+            'GET_MANY': [
+                add_is_current_user_subscribed,
+                change_subscribed_list_to_count
+            ],
+            'GET_SINGLE': [
+                add_is_current_user_subscribed,
+                change_subscribed_list_to_count
+            ],
+        },
         'include_columns': ['id',
                             'name',
                             'description',
-                            'subtitle',
                             'start',
                             'end',
                             'created_by',

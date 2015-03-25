@@ -48,21 +48,3 @@ class Event(db.Model):
     #    :return: a list of event contributers
     #    """
     #    return self._get_users_with_role('contributer')
-
-
-def event_serializer(instance):
-    return {
-        "id": instance.id,
-        "name": instance.name,
-        "description": instance.description,
-        "start": instance.start,
-        "end": instance.end,
-        "is_approved": instance.is_approved,
-        "created_by": instance.created_by,
-        "address": instance.address,
-        "address_name": instance.address_name,
-        "subscribed_users": instance.subscribed_users,
-        "categories": instance.categories,
-        "keywords": instance.keywords,
-        "test": "test"
-    }

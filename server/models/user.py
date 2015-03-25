@@ -15,7 +15,7 @@ class User(db.Model, UserMixin):
     password = db.Column('password', db.String(50))
     is_admin = db.Column('is_admin', db.Boolean)
 
-    subscriptions = association_proxy('event_subscription', 'event')
+    subscriptions = association_proxy('event_subscriptions', 'event')
 
     def __init__(self, username, password, is_admin):
         """Constructor for user."""
@@ -46,3 +46,10 @@ class User(db.Model, UserMixin):
         if event is None:
             return False
         return True
+
+    def is_subscribed_to_event(self, event_id: int) -> bool:
+        """Tell whether user is subscribed to event with a given id."""
+        filtered = list(filter(
+            lambda x: x.id == event_id, self.subscriptions
+        ))
+        return (len(filtered) > 0)

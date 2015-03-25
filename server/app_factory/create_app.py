@@ -13,18 +13,15 @@ def create_app() -> Flask:
     wtforms_json.init()
 
     # Define the WSGI Application object
-    app = Flask(
-        __name__,
-        template_folder="../../",
-        static_folder="../../static"
-    )
+    app = Flask(__name__)
 
     # Configurations
     app.config.from_object('server.config')
 
     # Initialize database with application
     db.init_app(app)
-    with app.test_request_context():
+
+    with app.app_context():
         db.create_all()
 
     # Initialize login manager with application

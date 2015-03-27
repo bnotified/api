@@ -14,14 +14,16 @@ class User(db.Model, UserMixin):
     username = db.Column('username', db.String(50), unique=True)
     password = db.Column('password', db.String(50))
     is_admin = db.Column('is_admin', db.Boolean)
+    uuid = db.Column('uuid', db.Text)
 
     subscriptions = association_proxy('event_subscriptions', 'event')
 
-    def __init__(self, username, password, is_admin):
+    def __init__(self, username, password, is_admin, uuid):
         """Constructor for user."""
         self.username = username
         self.password = password
         self.is_admin = is_admin
+        self.uuid = uuid
 
     # def _get_events_with_role(self, role: str) -> list:
     #    """Get list of events corresponding to a given role.

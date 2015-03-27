@@ -16,6 +16,7 @@ class Event(db.Model):
     start = db.Column(db.DateTime)
     end = db.Column(db.DateTime)
     is_approved = db.Column(db.Boolean)
+    is_reported = db.Column(db.Boolean)
     created_by = db.Column(db.String(50))
     address = db.Column(db.Text)
     address_name = db.Column(db.Text)

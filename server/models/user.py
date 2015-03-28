@@ -25,22 +25,6 @@ class User(db.Model, UserMixin):
         self.is_admin = is_admin
         self.uuid = uuid
 
-    # def _get_events_with_role(self, role: str) -> list:
-    #    """Get list of events corresponding to a given role.
-
-    #    :param role: role to filter events against (owner)
-    #    :return: list of events filtered against the role
-    #    """
-    #    return list(filter(lambda x: x.role == role, self.events.col))
-
-    # @property
-    # def owned_events(self) -> list:
-    #    """Get events owned by user.
-
-    #    :return: list of events owned by user
-    #    """
-    #    return self._get_events_with_role('owner')
-
     def ownes_event_with_id(self, instance_id: int) -> bool:
         """Tell whether user owns event with a given id."""
         query = Event.query.filter_by(created_by=self.id, id=instance_id)

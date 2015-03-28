@@ -73,7 +73,7 @@ def owner_or_admin_required(instance_id: int, data, **kwargs):
             'Only event owners or admins can update this event')
 
 
-def approved_preprocessor(data):
+def approve_event_only_if_admin(data):
     """Ensure that events are entered as not approved."""
     data['is_approved'] = current_user.is_admin
 
@@ -113,7 +113,7 @@ def remove_props(props):
     return preprocessor
 
 
-def login_required_preprocessor(*args, **kwargs):
+def login_required(*args, **kwargs):
     """Ensure user is logged in via preprocessor."""
     if not current_user.is_authenticated():
         raise ProcessingException(
@@ -139,15 +139,15 @@ api_config = [
         'model': Keyword,
         'methods': ['GET', 'POST', 'DELETE'],
         'preprocessors': {
-            'POST': [login_required_preprocessor],
-            'DELETE': [login_required_preprocessor]
+            'POST': [login_required],
+            'DELETE': [login_required]
         }
     },
     {
         'model': Category,
         'methods': ['GET', 'POST', 'DELETE'],
         'preprocessors': {
-            'POST': [login_required_preprocessor],
+            'POST': [login_required],
 
         }
     },
@@ -160,21 +160,23 @@ api_config = [
                 only_admin_can_approve
             ],
             'POST': [
-                login_required_preprocessor,
+                login_required,
                 created_by,
-                approved_preprocessor
+                approve_event_only_if_admin
             ],
             'DELETE': [
-                login_required_preprocessor,
+                login_required,
                 event_owned_by_current_user
             ]
         },
         'postprocessors': {
             'GET_MANY': [
+                login_required,
                 add_is_current_user_subscribed,
                 change_subscribed_list_to_count
             ],
             'GET_SINGLE': [
+                login_required,
                 add_is_current_user_subscribed,
                 change_subscribed_list_to_count
             ],

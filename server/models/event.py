@@ -11,7 +11,6 @@ class Event(db.Model):
     __tablename__ = 'events'
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.Text)
-    subtitle = db.Column(db.Text)
     description = db.Column(db.Text)
     start = db.Column(db.DateTime)
     end = db.Column(db.DateTime)

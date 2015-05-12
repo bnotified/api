@@ -3,8 +3,13 @@ from flask_restless import ProcessingException
 from flask_login import current_user
 
 from server.forms import RegistrationForm
-from server.models import User, Keyword, Category, Event
+from server.models import User, Keyword, Category, Event, EventSubscription
 from server.logger import log
+
+
+def add_current_user(data):
+    """Preprocessor that adds the current user as user_id."""
+    data["user_id"] = current_user.id
 
 
 def _add_is_current_user_subscribed(event):
@@ -149,6 +154,20 @@ api_config = [
         'preprocessors': {
             'POST': [login_required],
 
+        }
+    },
+    {
+        'model': EventSubscription,
+        'methods': ['POST', 'DELETE'],
+        'preprocessors': {
+            'POST': [
+                login_required,
+                add_current_user
+            ],
+            'DELETE': [
+                login_required,
+                add_current_user
+            ]
         }
     },
     {

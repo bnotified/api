@@ -12,6 +12,15 @@ def add_current_user(data):
     data["user_id"] = current_user.id
 
 
+def add_current_user_to_search(search_params=None, **kwargs):
+    """Preprocessor that adds the current user as user_id."""
+    search_params["filters"][0]["and"].append({
+        "name": "user_id",
+        "op": "eq",
+        "val": current_user.id
+    })
+
+
 def _add_is_current_user_subscribed(event):
     """Add is_subscribed field to a single event dictionary."""
     if current_user is None:
@@ -76,6 +85,18 @@ def owner_or_admin_required(instance_id: int, data, **kwargs):
     ):
         raise ProcessingException(
             'Only event owners or admins can update this event')
+
+
+def owner_admin_or_reporting(instance_id: int, data, **kwargs):
+    """Ensure an event is either being reported or edited by owner/admin."""
+    if (
+        not current_user.owns_event_with_id(instance_id) and
+        not current_user.is_admin
+    ):
+        is_reported = data["is_reported"]
+        data = {
+            "is_reported": is_reported,
+        }
 
 
 def approve_event_only_if_admin(data):
@@ -164,18 +185,28 @@ api_config = [
                 login_required,
                 add_current_user
             ],
-            'DELETE': [
+            'DELETE_MANY': [
                 login_required,
-                add_current_user
-            ]
-        }
+                add_current_user_to_search
+            ],
+            'DELETE_SINGLE': [
+                login_required,
+            ],
+        },
+        'allow_delete_many': True
     },
     {
         'model': Event,
         'methods': ['GET', 'POST', 'DELETE', 'PATCH'],
         'preprocessors': {
+            'GET_MANY': [
+                login_required
+            ],
+            'GET_SINGLE': [
+                login_required
+            ],
             'PATCH_SINGLE': [
-                owner_or_admin_required,
+                owner_admin_or_reporting,
                 only_admin_can_approve
             ],
             'POST': [
@@ -183,19 +214,17 @@ api_config = [
                 created_by,
                 approve_event_only_if_admin
             ],
-            'DELETE': [
+            'DELETE_SINGLE': [
                 login_required,
-                event_owned_by_current_user
-            ]
+                owner_or_admin_required
+            ],
         },
         'postprocessors': {
             'GET_MANY': [
-                login_required,
                 add_is_current_user_subscribed,
                 change_subscribed_list_to_count
             ],
             'GET_SINGLE': [
-                login_required,
                 add_is_current_user_subscribed,
                 change_subscribed_list_to_count
             ],

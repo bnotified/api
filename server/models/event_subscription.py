@@ -16,7 +16,7 @@ class EventSubscription(db.Model):
 
     user = db.relationship('User', backref=db.backref('event_subscriptions'))
 
-    def __init__(self, event=None, user=None):
+    def __init__(self, event_id=None, user_id=None):
         """Constructor for EventSubscription class."""
-        self.event = event
-        self.user = user
+        self.event_id = event_id
+        self.user_id = user_id

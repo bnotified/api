@@ -239,6 +239,8 @@ api_config = [
                             'categories',
                             'subscribed_users',
                             'address',
-                            'address_name']
+                            'address_name',
+                            'is_reported',
+                            'is_approved']
     }
 ]

@@ -25,7 +25,7 @@ class User(db.Model, UserMixin):
         self.is_admin = is_admin
         self.uuid = uuid
 
-    def ownes_event_with_id(self, instance_id: int) -> bool:
+    def owns_event_with_id(self, instance_id: int) -> bool:
         """Tell whether user owns event with a given id."""
         query = Event.query.filter_by(created_by=self.id, id=instance_id)
         event = query.first()

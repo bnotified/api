@@ -3,7 +3,7 @@ from flask_restless import ProcessingException
 from flask_login import current_user
 
 from server.forms import RegistrationForm
-from server.models import User, Keyword, Category, Event, EventSubscription
+from server.models import User, Category, Event, EventSubscription
 from server.logger import log
 
 
@@ -162,14 +162,6 @@ api_config = [
         }
     },
     {
-        'model': Keyword,
-        'methods': ['GET', 'POST', 'DELETE'],
-        'preprocessors': {
-            'POST': [login_required],
-            'DELETE': [login_required]
-        }
-    },
-    {
         'model': Category,
         'methods': ['GET', 'POST', 'DELETE'],
         'preprocessors': {
@@ -235,7 +227,6 @@ api_config = [
                             'start',
                             'end',
                             'created_by',
-                            'keywords',
                             'categories',
                             'subscribed_users',
                             'address',

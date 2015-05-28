@@ -18,7 +18,7 @@ class User(db.Model, UserMixin):
 
     subscriptions = association_proxy('event_subscriptions', 'event')
 
-    def __init__(self, username, password, is_admin, uuid):
+    def __init__(self, username, password, is_admin, uuid=None):
         """Constructor for user."""
         self.username = username
         self.password = password

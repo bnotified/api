@@ -22,7 +22,10 @@ class Event(db.Model):
 
     # users = association_proxy('event_user', 'user')
     subscribed_users = association_proxy('event_subscriptions', 'user')
-    categories = db.relationship('Category', secondary='event_categories')
+    categories = db.relationship(
+        'Category',
+        secondary='event_categories',
+    )
 
     # def _get_users_with_role(self, role: str) -> list:
     #    """Return a list of users corresponding to the event with a role.

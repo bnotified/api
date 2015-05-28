@@ -77,16 +77,6 @@ def only_admin_can_approve(instance_id: int, data, **kwargs):
         raise ProcessingException('Only admins can approve events')
 
 
-def owner_or_admin_required(instance_id: int, data, **kwargs):
-    """Ensure only an event owner or an admin can update an event."""
-    if (
-        not current_user.owns_event_with_id(instance_id) and
-        not current_user.is_admin
-    ):
-        raise ProcessingException(
-            'Only event owners or admins can update this event')
-
-
 def owner_admin_or_reporting(instance_id: int, data, **kwargs):
     """Ensure an event is either being reported or edited by owner/admin."""
     if (
@@ -189,7 +179,7 @@ api_config = [
     },
     {
         'model': Event,
-        'methods': ['GET', 'POST', 'DELETE', 'PATCH'],
+        'methods': ['GET', 'POST', 'PATCH'],
         'preprocessors': {
             'GET_MANY': [
                 login_required
@@ -205,10 +195,6 @@ api_config = [
                 login_required,
                 created_by,
                 approve_event_only_if_admin
-            ],
-            'DELETE_SINGLE': [
-                login_required,
-                owner_or_admin_required
             ],
         },
         'postprocessors': {

@@ -4,7 +4,7 @@ from flask import render_template, request, Response
 from server.mod_auth.auth import login
 from flask_login import current_user, login_required
 from flask_restless import ProcessingException
-from server.models import db, Event
+from server.models import db, Event, EventSubscription
 
 
 def owner_or_admin_required(instance_id: int, *args, **kwargs):
@@ -48,6 +48,10 @@ def define_routes(app):
     @login_required
     def delete_event(event_id):
         owner_or_admin_required(event_id)
+        subs = EventSubscription.query.filter_by(event_id=event_id)
+        for sub in subs:
+            db.session.delete(sub)
+
         event = Event.query.filter_by(id=event_id).first()
         db.session.delete(event)
         db.session.commit()

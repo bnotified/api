@@ -1,7 +1,7 @@
 import json
 from flask import render_template, request, Response
 
-from server.mod_auth.auth import login
+from server.mod_auth.auth import login, tmp_auth
 from flask_login import current_user, login_required
 from flask_restless import ProcessingException
 from server.models import db, Event, EventSubscription
@@ -18,6 +18,10 @@ def owner_or_admin_required(instance_id: int, *args, **kwargs):
 
 
 def define_routes(app):
+    @app.route('/tmp/auth', methods=['POST'])
+    def tmp_auth():
+        return tmp_auth(request);
+
     @app.route('/', methods=['GET'])
     def index():
         return render_template('index.html')

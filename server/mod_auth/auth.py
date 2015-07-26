@@ -6,6 +6,16 @@ from server.models import User
 from server.login_manager import login_manager
 
 
+def tmp_auth(request: flask.Request):
+    auth = request.authorization
+    if not auth:
+        return "NO AUTH"
+    return User.query.filter_by(
+        username=auth.username,
+        password=auth.password
+    ).first()
+
+
 @login_manager.user_loader
 def load_user(user_id: int) -> User:
     """Return a user from the database based on their id.
